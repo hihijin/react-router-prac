@@ -36,7 +36,9 @@
     transform: rotate(360deg);
   }
 }
-
+*{
+  overflow-x:hidden;
+}
 .main{
   display: flex;
   flex-direction: column;
@@ -61,7 +63,7 @@ button{
 h1{
   color:darkred;
   border-top: 1px solid rgba(0,0,0,0.4);
-  padding: 10px 500px;
+  padding: 10px 1000px;
 }
 button:hover{
   cursor: pointer;
